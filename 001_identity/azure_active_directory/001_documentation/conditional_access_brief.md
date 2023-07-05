@@ -1,20 +1,12 @@
 # CONDITIONAL ACCESS BRIEF INSTRUCTIONS
 ## Enable Security Key
 
-
-<details>
-<summary>Enable Security Key</summary>
-
-
-| Step | Description |
-|---:|:---|
-|1| Account Protection > Create Policy
-|2| Platform > Windows 10 and Later > Profile > Account Protection > Create              |
-|3| Name > Security Keys
-|4| Configuration Settings > Enable to use Security Keys for Sign-In
-|5| Add Groups > Search Test > Select Test User Group > Select
-|6| Create
-</details>
+Step 1: Account Protection > Create Policy
+Step 2: Platform > Windows 10 and Later > Profile > Account Protection > Create
+Step 3: Name > Security Keys
+Step 4: Configuration Settings > Enable to use Security Keys for Sign-In
+Step 5: Add Groups > Search Test > Select Test User Group > Select
+Step 6: Create
 
 
 ## Enable Temporary Access Pass
