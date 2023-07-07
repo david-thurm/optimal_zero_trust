@@ -1,2 +1,2 @@
-# DEVICES
-
+# Optimal Devices Project Outline
+***

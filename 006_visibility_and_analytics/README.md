@@ -1,1 +1,2 @@
-# VISIBILITY AND ANALYTICS
+# Visibility And Analytics Project Outline
+***

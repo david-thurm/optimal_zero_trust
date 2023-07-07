@@ -1,8 +1,10 @@
-<center>
+<!-- <center>
 <font size="9"> 
 <span style="color:blue">Optimal <span style="color:red">IDENTITY <span style="color:blue"> Project Outline</span>.
 </font>
-</center>
+</center> -->
+# Optimal Identity Project Outline
+***
 
 ## Enable PIV/FIDO2
 ## Conditional Access Policies
