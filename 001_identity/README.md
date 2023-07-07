@@ -10,7 +10,7 @@
 ## Conditional Access Policies
 ## Device Compliance Policies
 ## Export logs to Splunk
-- Create an HTTP Event Collector token in your Spunk Environment
+- Create an HTTP Event Collector token in your Splunk Environment
 - Create an Event Hub Namespace
 - Send data to an Event Hub
 - Deploy the functions to Azure
