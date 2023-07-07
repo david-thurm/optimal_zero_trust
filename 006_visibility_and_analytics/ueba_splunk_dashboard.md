@@ -1,5 +1,9 @@
 # UEBA Splunk Dashboard
+
 ## Azure UEBA Reference -- https://learn.microsoft.com/en-us/azure/sentinel/ueba-reference
+
+## Sending Event Hub Data to Splunk HEC -- https://github.com/splunk/azure-functions-splunk/blob/master/event-hubs-hec/README.md
+
 
 ## Search Results
 
