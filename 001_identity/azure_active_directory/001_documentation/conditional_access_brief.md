@@ -58,7 +58,6 @@ Step 4: Configure > Require one-time use > Update
 Step 5: Save  
 
 ## Device Compliance
-[Windows Compliance Policy](https://endpoint.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesWindowsMenu/~/compliancePolicies)  
  
 ### [Windows Device Compliance](https://endpoint.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesWindowsMenu/~/compliancePolicies)
 Step 1: Policies > Create Policy > Platform > Windows 10 and Later > Select Windows 10 and Later  
