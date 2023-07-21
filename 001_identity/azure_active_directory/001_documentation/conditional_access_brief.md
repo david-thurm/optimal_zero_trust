@@ -36,15 +36,15 @@ Step 7: Add > X509:<SKI> followed by the Subject Key Identifier
 
 Step 8: Save
 
-### Certificate-based Authentication Settings
+### [Certificate-based Authentication Settings](https://portal.azure.com/#view/Microsoft_AAD_IAM/AuthenticationMethodsMenuBlade/~/AdminAuthMethods)
 
 Step 1: Enable  
 Step 2: Select Groups > Add Groups > Search “test” > Click “test_user_group” > Click Select  
 Step 3: Configure  
 Step 4: Protection Level > "Single Factor Authentication"  
 Step 5: Add Rule > Certificate Issuer  
-Step 6: Certificate Issuer Identifier > Select Your Certificate Authority > Protection Level > "Multi-Factor Authentication" > Save
-Step 7: Certificate Field > certificateUserIds
+Step 6: Certificate Issuer Identifier > Select Your Certificate Authority > Protection Level > "Multi-Factor Authentication" > Save  
+Step 7: Certificate Field > certificateUserIds  
 Step 8: User Binding > Certificate Field > Click "SubjectKeyIdentifier" Select User Attribute > Choose "CertificateUserIds"  
 Step 9: Move "SubjectKeyIdentifier" to the top of the list
 Step 10: Save
@@ -59,16 +59,18 @@ Step 5: Save
 
 ## Device Compliance
 [Windows Compliance Policy](https://endpoint.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesWindowsMenu/~/compliancePolicies)  
-[IOS Compliance Policy](https://endpoint.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesIosMenu/~/compliancePolicies)  
-[macOS Compliance Policy](https://endpoint.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesMacOsMenu/~/compliancePolicies)  
-[Linux Compliance Policy](https://endpoint.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesLinuxMenu/~/compliancePolicies)  
-[Android Compliance POlicy](https://endpoint.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesAndroidMenu/~/compliancePolicies)  
-### Windows Device Compliance
+ 
+### [Windows Device Compliance](https://endpoint.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesWindowsMenu/~/compliancePolicies)
 Step 1: Policies > Create Policy > Platform > Windows 10 and Later > Select Windows 10 and Later  
 Step 2: Create  
 Step 3: Basics > Name > “Windows 10/11 Compliance" > Next  
 Step 4: Compliance Settings > Device Health  
 Step 5: Compliance Settings > System Security > Next  
+
+### [iOS Compliance Policy](https://endpoint.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesIosMenu/~/compliancePolicies)  
+### [macOS Compliance Policy](https://endpoint.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesMacOsMenu/~/compliancePolicies)  
+### [Linux Compliance Policy](https://endpoint.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesLinuxMenu/~/compliancePolicies)  
+### [Android Compliance POlicy](https://endpoint.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesAndroidMenu/~/compliancePolicies) 
 
 ## [Named Locations](https://portal.azure.com/#view/Microsoft_AAD_ConditionalAccess/ConditionalAccessBlade/~/NamedLocations)
 
