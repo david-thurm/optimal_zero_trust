@@ -90,7 +90,7 @@ Step 1: Policies > New Policy
 Step 2: Users > Select Users and Groups > Users and Groups > Search “test” > Select Test Device > Select  
 Step 3: All Cloud Apps > Include > All Cloud Apps  
 Step 4: Conditions > Device Platforms > Configure > Include > Select Device Platforms > Windows > Done  
-Step 5: Grant > Grant Access > Require Device to be Marked Compliant > Select  
+Step 5: Grant > Grant Access > Require Device to be Marked Compliant > Select > Required Hybrid Azure AD Joined Device  
 Step 6: Enable Policy > Create  
 
 ## Phishing Resistant MFA for Admins (CISA)
