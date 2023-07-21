@@ -110,3 +110,12 @@ Step 4: All Cloud Apps > Include > All Cloud Apps
 Step 5: Grant > Grant Access > Require Authentication Strength > Phishing Resistant MFA > Select  
 Step 6: Enforce Policy > Create  
 
+## Allow Only DOE IP Space
+Step 1: Policies > New Policy  
+Step 2: Name > Allow Only DOE IP Space > Users > Search “test” > Select Test Users > Select  
+Step 3: Cloud Apps or Actions > All Cloud Apps  
+Step 4: Conditions > Locations > Configure > Include > Select Any Location 
+Step 5: Exclude > Selected Locatoins > 
+Step 6: Include > Any Location  > Select None > Choose DOE IP Space > Click Select  
+Step 7: Grant > Block Access > Select  
+Step 8: Enable Policy > Create 
