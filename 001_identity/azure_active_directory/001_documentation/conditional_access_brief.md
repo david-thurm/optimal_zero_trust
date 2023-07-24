@@ -104,7 +104,8 @@ Step 7: Enable Policy > Create
 
 ## [Deny Non-United States Locations](https://endpoint.microsoft.com/#view/Microsoft_AAD_ConditionalAccess/ConditionalAccessBlade/~/Policies)  
 Step 1: Policies > New Policy  
-Step 2: Name > Deny Non-US Locations > Users > Search “test” > Select Test Users > Select  # Fix This Garbage
+Step 2: Name > Deny Non-US Locations > Users > Search “test” > Select Test Users > Select  
+# Fix This Garbage  
 Step 3: Cloud Apps or Actions > All Cloud Apps  
 Step 4: Conditions > Locations > Configure > Select Locations > Select Any  
 Step 6: Include > Any Location  
