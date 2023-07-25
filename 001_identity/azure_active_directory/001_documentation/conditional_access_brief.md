@@ -31,8 +31,8 @@ Step 4: Remove "KeyID=" and spaces between numbers
 [Azure AD Users](https://portal.azure.com/#view/Microsoft_AAD_UsersAndTenants/UserManagementMenuBlade/~/AllUsers)  
 Step 5: Azure AD > Users > Search "Test User" > Double Click "Test User"  
 Step 6: Authorization Info > Edit Certificate user IDs  
-Step 7: Add > X509:<SKI> followed by the Subject Key Identifier  
-* Example:  X509:<SKI>5cdea00000b5324400000002a98e03bccdab324567  
+Step 7: Add > "X509:<SKI>" followed by the Subject Key Identifier  
+* Example:  "X509:<SKI>5cdea00000b5324400000002a98e03bccdab324567"  
 
 Step 8: Save
 
