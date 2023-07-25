@@ -17,7 +17,7 @@ Step 1: Choose Appropriate CA for your group
 [Azure Certificate Authorities](https://portal.azure.us/#view/Microsoft_AAD_IAM/SecurityMenuBlade/~/CertificateAuthorities)  
 Step 1: Upload  
 Step 2: Browse to Certificate you downloaded  
-Step 3: Is Root CA Certificate > yes  
+Step 3: Is Root CA Certificate > no  
 Step 4: Certificate Revocation List URL > "http://repo.fpki.gov/fcpca/fcpcag2.crl"  
 Step 5: Add
 
@@ -47,7 +47,8 @@ Step 5: Add Rule > Certificate Issuer
 Step 6: Certificate Issuer Identifier > Select Your Certificate Authority > Protection Level > "Multi-Factor Authentication" > Save  
 Step 7: Certificate Field > certificateUserIds  
 Step 8: User Binding > Certificate Field > Click "SubjectKeyIdentifier" Select User Attribute > Choose "CertificateUserIds"  
-Step 9: Move "SubjectKeyIdentifier" to the top of the list
+Step 9: Move "SubjectKeyIdentifier" to the top of the list  
+Step 10: Delete "PrincipleName" and "RFC822Name".
 Step 10: Save
 
 ## [Enable Temporary Access Pass](https://portal.azure.com/#view/Microsoft_AAD_IAM/AuthenticationMethodsMenuBlade/~/AdminAuthMethods)
