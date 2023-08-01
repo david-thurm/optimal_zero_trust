@@ -34,7 +34,7 @@ Step 6: Authorization Info > Edit Certificate user IDs
 Step 7: Add > "X509:<SKI>" followed by the Subject Key Identifier  
 ```
 Example:  "X509://<SKI>5cdea00000b5324400000002a98e03bccdab324567"  
-```
+```  
 Step 8: Save
 
 ### [Certificate-based Authentication Settings](https://portal.azure.com/#view/Microsoft_AAD_IAM/AuthenticationMethodsMenuBlade/~/AdminAuthMethods)
@@ -48,8 +48,8 @@ Step 6: Certificate Issuer Identifier > Select Your Certificate Authority > Prot
 Step 7: Certificate Field > certificateUserIds  
 Step 8: User Binding > Certificate Field > Click "SubjectKeyIdentifier" Select User Attribute > Choose "CertificateUserIds"  
 Step 9: Move "SubjectKeyIdentifier" to the top of the list  
-Step 10: Delete "PrincipleName" and "RFC822Name".
-Step 10: Save
+Step 10: Delete "PrincipleName" and "RFC822Name".  
+Step 11: Save
 
 ## [Enable Temporary Access Pass](https://portal.azure.com/#view/Microsoft_AAD_IAM/AuthenticationMethodsMenuBlade/~/AdminAuthMethods)
  
