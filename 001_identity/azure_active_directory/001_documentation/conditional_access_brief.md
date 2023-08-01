@@ -1,4 +1,4 @@
-# CONDITIONAL ACCESS BRIEF INSTRUCTIONS
+# 1.0: CONDITIONAL ACCESS BRIEF INSTRUCTIONS
 ## [Enable Security Key](https://portal.azure.com/#view/Microsoft_AAD_IAM/AuthenticationMethodsMenuBlade/~/AdminAuthMethods)
 
 Step 1: Account Protection > Create Policy  
@@ -8,7 +8,7 @@ Step 4: Configuration Settings > Enable to use Security Keys for Sign-In
 Step 5: Add Groups > Search Test > Select Test User Group > Select  
 Step 6: Create
 
-## [Enable Certificate Based Authentication](https://portal.azure.com/#view/Microsoft_AAD_IAM/AuthenticationMethodsMenuBlade/~/AdminAuthMethods)
+## 2.0: [Enable Certificate Based Authentication](https://portal.azure.com/#view/Microsoft_AAD_IAM/AuthenticationMethodsMenuBlade/~/AdminAuthMethods)
 
 ###  Certificate Authority Download and Install
 [Entrust Certificate Download Site](https://www.entrust.com/resources/certificate-solutions/tools/root-certificate-downloads)  
