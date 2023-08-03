@@ -155,4 +155,30 @@ Step 4: All Cloud Apps > Include > All Cloud Apps
 Step 5: Grant > Grant Access > Require Authentication Strength > Phishing Resistant MFA > Select  
 Step 6: Enforce Policy > Create  
 
+## [Limit Sesions Length](https://endpoint.microsoft.com/#view/Microsoft_AAD_ConditionalAccess/ConditionalAccessBlade/~/Policies)  
+Step 1: Policies > New Policy  
+Step 2: Name > Users > Select Users and Groups > Users & Groups > Search > Select Test Device > Select  
+Step 3: Exclude > Users and Groups > Search “Break Glass” Group > Select Break Glass Group > Select  
+Step 4: All Cloud Apps > Include > All Cloud Apps  
+Step 5: Session
+Sign-in Frequency > Periodic reauthentication > "12" Hours
+Select
+Save
 
+## [Continuous Access Evaluation](https://endpoint.microsoft.com/#view/Microsoft_AAD_ConditionalAccess/ConditionalAccessBlade/~/Policies)  
+Step 1: Policies > New Policy  
+Step 2: Name > Users > Select Users and Groups > Users & Groups > Search > Select Test Device > Select  
+Step 3: Exclude > Users and Groups > Search “Break Glass” Group > Select Break Glass Group > Select  
+Step 4: All Cloud Apps > Include > All Cloud Apps  
+Step 5: Session > Customize continuous access evaluation > Strictly enforce location policies (Preview)  
+Step 6: Select  
+Save 7: Save  
+
+## [Token Protection](https://endpoint.microsoft.com/#view/Microsoft_AAD_ConditionalAccess/ConditionalAccessBlade/~/Policies)  
+Step 1: Policies > New Policy  
+Step 2: Name > Users > Select Users and Groups > Users & Groups > Search > Select Test Device > Select  
+Step 3: Exclude > Users and Groups > Search “Break Glass” Group > Select Break Glass Group > Select  
+Step 4: All Cloud Apps > Include > All Cloud Apps  
+Step 5: Session > Require token protection for sign-in sessions (Preview)  
+Step 6: Select  
+Save 7: Save  
