@@ -155,15 +155,15 @@ Step 4: All Cloud Apps > Include > All Cloud Apps
 Step 5: Grant > Grant Access > Require Authentication Strength > Phishing Resistant MFA > Select  
 Step 6: Enforce Policy > Create  
 
-## [Limit Sesions Length](https://endpoint.microsoft.com/#view/Microsoft_AAD_ConditionalAccess/ConditionalAccessBlade/~/Policies)  
+## [Limit Session Length](https://endpoint.microsoft.com/#view/Microsoft_AAD_ConditionalAccess/ConditionalAccessBlade/~/Policies)  
 Step 1: Policies > New Policy  
 Step 2: Name > Users > Select Users and Groups > Users & Groups > Search > Select Test Device > Select  
 Step 3: Exclude > Users and Groups > Search “Break Glass” Group > Select Break Glass Group > Select  
 Step 4: All Cloud Apps > Include > All Cloud Apps  
 Step 5: Session
-Sign-in Frequency > Periodic reauthentication > "12" Hours
-Select
-Save
+Step 6: Sign-in Frequency > Periodic reauthentication > "12" Hours
+Step 7: Select  
+Save 8: Enforce Policy > Create 
 
 ## [Continuous Access Evaluation](https://endpoint.microsoft.com/#view/Microsoft_AAD_ConditionalAccess/ConditionalAccessBlade/~/Policies)  
 Step 1: Policies > New Policy  
@@ -172,7 +172,7 @@ Step 3: Exclude > Users and Groups > Search “Break Glass” Group > Select Bre
 Step 4: All Cloud Apps > Include > All Cloud Apps  
 Step 5: Session > Customize continuous access evaluation > Strictly enforce location policies (Preview)  
 Step 6: Select  
-Save 7: Save  
+Save 7: Enforce Policy > Create  
 
 ## [Token Protection](https://endpoint.microsoft.com/#view/Microsoft_AAD_ConditionalAccess/ConditionalAccessBlade/~/Policies)  
 Step 1: Policies > New Policy  
@@ -181,4 +181,14 @@ Step 3: Exclude > Users and Groups > Search “Break Glass” Group > Select Bre
 Step 4: All Cloud Apps > Include > All Cloud Apps  
 Step 5: Session > Require token protection for sign-in sessions (Preview)  
 Step 6: Select  
-Save 7: Save  
+Save 7: Enforce Policy > Create  
+
+## [Session Limit](https://endpoint.microsoft.com/#view/Microsoft_AAD_ConditionalAccess/ConditionalAccessBlade/~/Policies)  
+Step 1: Policies > New Policy  
+Step 2: Name > Users > Select Users and Groups > Users & Groups > Search > Select Test Device > Select  
+Step 3: Exclude > Users and Groups > Search “Break Glass” Group > Select Break Glass Group > Select  
+Step 4: All Cloud Apps > Include > All Cloud Apps  
+Step 5: Session > Check "Persistent browser session"  
+Step 6: Persistent browser session > "Never Persistent"  
+Save 7: Select  
+Save 8: Enforce Policy > Create  
