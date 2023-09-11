@@ -155,4 +155,6 @@ Step 4: All Cloud Apps > Include > All Cloud Apps
 Step 5: Grant > Grant Access > Require Authentication Strength > Phishing Resistant MFA > Select  
 Step 6: Enforce Policy > Create  
 
+## Continuous access evaluation
+
 
