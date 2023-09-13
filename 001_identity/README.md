@@ -17,7 +17,7 @@
 - Create an Event Hub Namespace
 - Send data to an Event Hub
 - Deploy the functions to Azure
-- 
+
 ## Priviledged Access Management (PAM)
 - Provide just-in-time access to critical resources
 - Allow secure remote access using encrypted gateways in lieu of passwords
@@ -26,7 +26,7 @@
 - Capture privileged account events for compliance audits
 - Generate reports on privileged user access and activity
 - Protect DevOps with integrated password security
-- 
+  
 ## Privileged Identity Management (PIM)
 -  Provide just-in-time privileged access to Azure AD and Azure resources
 *  Assign time-bound access to resources using start and end dates
@@ -37,7 +37,7 @@
 -  Conduct access reviews to ensure users still need roles
 *  Download audit history for internal or external audit
 -  Prevents removal of the last active Global Administrator and Privileged Role Administrator role assignments
--  
+
 ## Identity and Access Management (IAM)
 - Identity management - The process of creating, storing, and managing identity information. Identity providers (IdP) are software solutions that are used to track and manage user identities, as well as the permissions and access levels associated with those identities.
 - Identity federation - You can allow users who already have passwords elsewhere (for example, in your enterprise network or with an internet or social identity provider) to get access to your system.
@@ -46,7 +46,7 @@
 - Authorization of users - Authorization ensures a user is granted the exact level and type of access to a tool that they're entitled to. Users can also be portioned into groups or roles so large cohorts of users can be granted the same privileges.
 - Access control - The process of determining who or what has access to which resources. This includes defining user roles and permissions, as well as setting up authentication and authorization mechanisms. Access controls regulate access to systems and data.
 - Reports and monitoring - Generate reports after actions taken on the platform (like sign-in time, systems accessed, and type of authentication) to ensure compliance and assess security risks. Gain insights into the security and usage patterns of your environment.
-- 
+
 ## Azure Local Administrator Passwords (LAPS)
 - Enabling Windows LAPS with Azure AD - Enable a tenant wide policy and a client-side policy to backup local administrator password to Azure AD.
 *  Local administrator password management - Configure client-side policies to set account name, password age, length, complexity, manual password reset and so on.
