@@ -43,6 +43,15 @@
 ## Disk Encryption with BitLocker
 ## Migrate On-Prem Apps to Azure Active Directory Authentication
 
+## Purview for Office 365
+
+## Purview for Datalake
+https://learn.microsoft.com/en-us/azure/architecture/solution-ideas/articles/azure-purview-data-lake-estate-architecture
+
+## Purview for AWS s3 Buckets
+https://techcommunity.microsoft.com/t5/security-compliance-and-identity/scanning-and-labeling-aws-s3-buckets-with-azure-purview/ba-p/2833072
+
+
 ***
 # Appendix
 ## https://learn.microsoft.com/en-us/security/zero-trust/deploy/identity
