@@ -74,6 +74,9 @@ To Be Determined
 ## Cloud Web Proxy (Network and Identity Pillars)
 To Be Determined 
 
+## Cloud Security Posture Management (CSPM) (Governance Foundation)
+- Cloud security posture management (CSPM) identifies and remediates risk by automating visibility, uninterrupted monitoring, threat detection, and remediation workflows to search for misconfigurations across diverse cloud environments/infrastructure.
+
 ***
 # Appendix
 ## https://learn.microsoft.com/en-us/security/zero-trust/deploy/identity
