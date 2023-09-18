@@ -155,6 +155,12 @@ Step 4: All Cloud Apps > Include > All Cloud Apps
 Step 5: Grant > Grant Access > Require Authentication Strength > Phishing Resistant MFA > Select  
 Step 6: Enforce Policy > Create  
 
-## Continuous access evaluation
+## Conditonal Access: Continuous access evaluation
+https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/concept-continuous-access-evaluation#conditional-access-policy-evaluation-preview  
 
+Only Supports Exchange Online and SharePoint as of 9/2023.
 
+## Conditonal Access: Token Protection
+https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/concept-token-protection  
+
+Only Supports Desktop apps for OneDrive, Teams, Power BI, Exchange Online and SharePoint as of 9/2023.
