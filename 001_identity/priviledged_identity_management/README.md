@@ -24,13 +24,15 @@
 ## Conditional Access: [Policies](https://portal.azure.com/#view/Microsoft_AAD_ConditionalAccess/ConditionalAccessBlade/~/Policies) 
 1. New Policy
 2. Name: Admin Privilege Escalation
-3. Target: Authentication Contexts
-4. Check: Admin Privilege Context
-5. Conditions: User Risk Low
-6. Conditions: Sign-in Risk - Low
-7. Conditions: Sign-in Risk - No Risk
-8. Locations: All trusted Locations
-9. Grant Access: Require authentication strength of: FIDO2/PIV
+3. Users: Include All Users
+4. Exclude: Exclude users and groups (Break Glass Accounts)
+5. Target: Authentication Contexts
+6. Check: Admin Privilege Context
+7. Conditions: User Risk Low
+8. Conditions: Sign-in Risk - Low
+9. Conditions: Sign-in Risk - No Risk
+10. Locations: All trusted Locations
+11. Grant Access: Require authentication strength of: FIDO2/PIV
 
 # Privileged Identity Management: [Main Menu](https://portal.azure.com/#view/Microsoft_Azure_PIMCommon/CommonMenuBlade/~/quickStart)
 
