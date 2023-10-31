@@ -1,5 +1,36 @@
-# Create Entra Conditional Access Authentication Context
 
+# Conditional Access Authentication Strength
+## Conditional Access: [Authentication Strengths](https://portal.azure.com/#view/Microsoft_AAD_ConditionalAccess/ConditionalAccessBlade/~/AuthStrengths)
+1. Authentication Strengths
+2. New Authentication Strength
+3. Name: FIDO2/PIV
+4. Check: Certificate-Based Authentication (PIV)
+5. Check: FIDO2 Security Key -- [Allowed Yubikey Security Keys](https://support.yubico.com/hc/en-us/articles/360016648959-YubiKey-Hardware-FIDO2-AAGUIDs)
+6. Check: Windows Hello for Business (Optional)
+7. Next
+8. Create
+
+
+## Conditional Access: [Authentication Contexts](https://portal.azure.com/#view/Microsoft_AAD_ConditionalAccess/ConditionalAccessBlade/~/AuthenticationContext)
+
+1. Authentication Contexts
+2. New Authentication Context
+3. Name: Admin Privilege Context
+4. Description: Fido2/PIV
+5. Check: Publish to apps
+6. Save
+
+
+## Conditional Access: [Policies](https://portal.azure.com/#view/Microsoft_AAD_ConditionalAccess/ConditionalAccessBlade/~/Policies) 
+1. New Policy
+2. Name: Admin Privilege Escalation
+3. Target: Authentication Contexts
+4. Check: Admin Privilege Context
+5. Conditions: User Risk Low
+6. Conditions: Sign-in Risk - Low
+7. Conditions: Sign-in Risk - No Risk
+8. Locations: All trusted Locations
+9. Grant Access: Require authentication strength of: FIDO2/PIV
 
 # Privileged Identity Management: [Main Menu](https://portal.azure.com/#view/Microsoft_Azure_PIMCommon/CommonMenuBlade/~/quickStart)
 
