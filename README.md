@@ -1,47 +1,47 @@
-## 1: Identity
-    Phishing Resistant MFA  
-        Fido2/PIV  
-    Privileged Identity Management  
-        Just-in-Time Access  
-    Prep for Data Labeling/Classification  
-        Define Security Context  
-    User Lifecycle Management  
-        Saviynt/SailPoint  
-    Privileged Access Management  
+## I: Identity
+    1: Phishing Resistant MFA
+        A: Fido2/PIV
+    2: Privileged Identity Management
+        B: Just-in-Time Access
+    3: Prep for Data Labeling/Classification
+        C: Define Security Context  
+    4: User Lifecycle Management
+        D: Saviynt/SailPoint  
+    5: Privileged Access Management  
 
-## 2: Device
-    Device Compliance Standards  
-        Defender/Okta/EDR Compliance Data Enrichment  
-        Conditional Access Polices Enforcement  
-        zScaler, Prisma Access, Firewall, VPN, and/or ForeScout/NAC Enforcement  
+## II: Device
+    1: Device Compliance Standards
+        A: Defender/Okta/EDR Compliance Data Enrichment  
+        B: Conditional Access Polices Enforcement  
+        C: zScaler, Prisma Access, Firewall, VPN, and/or ForeScout/NAC Enforcement  
 
-## 3: Data
-    Labeling/Classification  
-        Microsoft 0365 Purview, Microsoft Purview, Varonis  
-    Data Loss Prevention  
+## III: Data
+    1: Labeling/Classification  
+        A: Microsoft 0365 Purview, Microsoft Purview, Varonis  
+    2: Data Loss Prevention  
 
-## 4: Visibility and Analytics
-    (Identity) Export User Risk from Entra to Splunk/Sentinel  
-    (Identity) Sentinel Workbooks and Splunk Dashboards for UEBA  
-    (Device) Pull SWAM/HWAM data with a tool like CrowdStrike, Axonius, or ForeScout.  
+## IV: Visibility and Analytics
+    1: (Identity) Export User Risk from Entra to Splunk/Sentinel  
+    2: (Identity) Sentinel Workbooks and Splunk Dashboards for UEBA  
+    3: (Device) Pull SWAM/HWAM data with a tool like CrowdStrike, Axonius, or ForeScout.  
 
-## 5: Automation
-    Adopt Infrastructure as Code as soon as possible (terraform)  
-    Deployments should all be Ansible/Salt nothing by hand with love and care.  
-    Shift Left: Device Hardening should be done at Deployment  
+## V: Automation
+    1: Adopt Infrastructure as Code as soon as possible (terraform)  
+    2: Deployments should all be Ansible/Salt nothing by hand with love and care.  
+    3: Shift Left: Device Hardening should be done at Deployment  
 
-## 6: Applications and Workloads
-    Move all workloads to be immutable.  Don't patch nuke from orbit and redeploy.  
+## VI: Applications and Workloads
+    1: Move all workloads to be immutable.  Don't patch nuke from orbit and redeploy.  
 
-## 7: Network
-    The Network team has had 20 years to do segmentation they are my least priority.  
-    Fast Network Overlay Illumio and Slack's Nebula  
-    Enable User/Group based firewall rules for East/West.  
-    Encrypted DNS has limited support from DNS Server to Internet Root DNS.  (InfoBlox has support)  
+## VII: Network
+    1: The Network team has had 20 years to do segmentation they are my least priority.  
+    2: Fast Network Overlay Illumio and Slack's Nebula  
+    3: Enable User/Group based firewall rules for East/West.  
+    4: Encrypted DNS has limited support from DNS Server to Internet Root DNS.  (InfoBlox has support)  
 
-## 8: Governance
-    Define Zero Trust Policies  
-    Audit Logging of all assets  
-    User training and awareness  
-    Incident response plans  
-    Data governance policies  
+## VIII: Governance
+    1: Define Zero Trust Policies  
+    2: Audit Logging of all assets  
+    3: User training and awareness  
+    4: Incident response plans  
+    5: Data governance policies  
