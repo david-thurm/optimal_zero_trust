@@ -14,6 +14,8 @@
         A: Defender/Okta/EDR Compliance Data Enrichment  
         B: Conditional Access Polices Enforcement  
         C: zScaler, Prisma Access, Firewall, VPN, and/or ForeScout/NAC Enforcement  
+    2: High Value Assets
+    3: SCADA/OT Systems
 
 ## III: Data
     1: Labeling/Classification  
