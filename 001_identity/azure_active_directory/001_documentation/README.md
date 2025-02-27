@@ -16,7 +16,7 @@ Step 1: Choose Appropriate CA for your group
 
 [Azure Certificate Authorities](https://portal.azure.us/#view/Microsoft_AAD_IAM/SecurityMenuBlade/~/CertificateAuthorities)  
 Step 1: Upload  
-Step 2: Browse to Certificate you downloaded  
+Step 2: Browse to the Certificate you downloaded  
 Step 3: Is Root CA Certificate > no  
 Step 4: Certificate Revocation List URL > "http://repo.fpki.gov/fcpca/fcpcag2.crl"  
 Step 5: Add
